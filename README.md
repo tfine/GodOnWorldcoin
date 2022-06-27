@@ -1,2 +1,27 @@
-# GodOnWorldcoin
-Web application, of satirical theater, for accounts on the Worldcoin blockchain to pledge to give all of their initial, airdropped coins to Todd Fine.  Uses Worldcoin Developer SDK.
+God On Worldcoin
+
+The launch of Worldcoin by OpenAI CEO Sam Altman could be one of the most interesting socio-economic and socio-political events in recent history. A confluence of new communications and financial technologies have come together to enable private actors to accelerate their global intervention into two domains that traditionally are the province of the state: communications and commerce. The purchase of Twitter by former Paypal-founder Elon Musk; the purchase of The Washington Post by Jeffrey Bezos; and the virtual reality reaches by Mark Zuckerberg of Meta (formerly Facebook) indicate the degree to which upstart private technology billionaires are grasping toward global levers of power, now with cryptocurrency as another tool in the toolbox.
+
+In that context, the launch of the utopian Worldcoin – based on biometric identification and supported by exchange billionaire Sam Bankman-Fried, VC fund Andreessen Horowitz, and cryptocurrency titan Coinbase – will be a provocation. Initially, a provocation to other blockchains whose token distributions are beyond unjust, and, afterwards a provocation to governments themselves, who will have to decide on the legality of Worldcoin’s eye-scanning initiative and the encrypted use of the token (whose mobile app also onboards to Ethereum and Polygon wallets, which will compete against central bank digital currencies).
+
+However, to the future web developer “customers” of the blockchain (makers of “Dapps,” or “distributed applications”), the Worldcoin pitch may be irresistible. Worldcoin calls for a chain of justice, a chain of equality, a chain where every single soul with an iris (and, I believe, without as well) will qualify for the same “airdropped” tokens. This devotion to justice may persuade people to ignore or minimize the oligarchic control of its tokenomics.
+
+With this coin likely having significant inherent value due to its sponsorship by billionaires, it might create new forms of global commerce that will look significantly different. Commerce on Worldcoin may unleash wild innovation when every single customer has the same initial net worth. Or it might unleash an explosion of violence as politically-powerful local actors attempt either to accumulate or prohibit use of the token, and as real-world capital pushes the limit to capture the tokens of poor people.
+
+We should also acknowledge that Sam Altman and other investors in Worldcoin could profit handsomely, as their ownership of the blockchain could give them enormous power over the chain’s tokenomics and general development. While Altman (and others) will surely invest a lot of money to make the project an unexpected blessing to individuals at first, it remains to be seen if, in its subsequent, long-term implementation, he will be a “philosopher-king” or an oligarchic tyrant. Another blockchain founder, Juan Benet of Protocol Labs, just organized a conference at the New-York Historical Society called “Funding the Commons” about whether the incentivization lessons learned by blockchain builders and executives could now be used to drive global innovation and solve social problems equitably. It remains to be seen where Altman’s vision stands in comparison.
+
+There also may be religious controversies. With Worldcoin placing “the World” above God and by not acknowledging heavenly forces in its theatrical resetting of the distribution of global wealth, members of the world’s major religions may balk at the requirements of iris-scanning. This intrusion may cause Christians to consider the magical “Orb” scanning as Satanic and as possibly related to the Revelation prophecy of the Mark of the Beast (see Revelation 13:16-18, which could be construed as referring to public and private keys with “the name” and “the number”). 
+
+Worldcoin will surely be a very powerful blockchain. And its equitable public distribution also sets the stage for the public to establish new on-chain institutions – such as unions and religious entities – that could check the power of the chain’s governance. Oddly enough, given the likely government resistance to Worldcoin, the establishment of a Church or an Ummah on the chain might be necessary for its success.
+
+On Friday, June 24 at around 10pm, I was onboarded onto the Worldcoin chain through eye-scanning and an Android app, receiving the public and private keys for its use. I had the immediate idea, as can be testified by attendees at ETH NYC, of using Worldchain’s secure human-verification technology of creating a website where people would be able to say and find witnesses to say Shahada and convert to Islam. Later, I realized that there was a fundamental social engineering problem on the chain itself, and that something like a religious institution of all of the Abrahamic faiths might need to exist to check oligarchic power. 
+
+I, therefore, intend to ask people to pledge to join this institution, and commit to giving their initial Worldcoin tokens to it. More detail will come, and I assure you that this will be a shared socio-economic experiment, and not a tawdy attempt to “get rich.”
+
+The Worldcoin address of this institution will be:
+
+0x0d2e56d5a821cfb7492f82bdd492aa681e600e5fc2f7aa44b95400e2224746b314855388a6e3c2bae001a0e0280d517635dfbdcba920277efe400ab02413b00522eebb956d6f38d2bd8d116d5b9cdbe0e11e4d3de0deb963f45a81434ce630be2f79333b9b2944c6230d6dc43b7c58e9f36fce76042147bc02be49ed1e3e40d2
+
+And the equivalent Polygon Worldcoin address:
+
+0x3bf896c59cfecc5e27fd9af6901b94ec1cd3f176

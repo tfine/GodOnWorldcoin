@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The Worldcoin Pledge</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" /> 
+    <script
+  type="text/javascript"
+  src="//unpkg.com/@worldcoin/id/dist/world-id.js"
+></script>
+  </head>
+  <body>
+    
+    <!-- this is the start of content -->
+    <h1>
+      {{ greeting }}
+    </h1>
+    <p>
+      Will you commit to giving 10% of your airdropped Worldcoin tokens to the "Abrahamic Family House," an onchain institution that will serve God and check oligarchic control on Worldcoin?
+    </p>
+    <p>
+      The Worldcoin address of the House is:
+    </p>
+    <pre> 0x0d2e56d5a821cfb7492f82bdd492aa681e600e5fc2f7aa44b95400e2224746b314855388a6e3c2bae001a0e0280d517635dfbdcba920277efe400ab02413b00522eebb956d6f38d2bd8d116d5b9cdbe0e11e4d3de0deb963f45a81434ce630be2f79333b9b2944c6230d6dc43b7c58e9f36fce76042147bc02be49ed1e3e40d2
+   </pre>
+    <p>
+      There are two ways to pledge. First, by a free mint of a Polygon NFT (especially if your iris hasn't been scanned yet). Second, by using Worldcoin's WorldID service to verify the uniqueness of your Worldcoin wallet to make the pledge (this needs work).
+    </p>
+    
+    <p>
+      To learn more about this initiative, read the README.md or join the <a href="https://discord.gg/BkADpprcuQ">Discord</a>.  
+    </p>
+    <h2>
+       Free Polygon Mint of Pledge
+   </h2>
+  
+    <iframe
+src="https://gateway.ipfscdn.io/ipfs/QmRPK2zjmkM8sodgCpyiCbLTvKGJwU3mWcwXwL2AWEBWym/edition-drop.html?contract=0xfD26ac0b4D1Ac4B7f0382ED1e5C1a2189625f72E&chainId=137&tokenId=0"
+width="600px"
+height="600px"
+style="max-width:100%;"
+frameborder="0"
+></iframe>
+    
+  <h2>
+    Free WorldID Pledge Service
+  </h2>  
+    
+    <div id="world-id-container"></div>
+    <p>
+     <form>
+     <input type="checkbox" id="pledge" name="pledge"> I PLEDGE.
+       
+     WORLD ID IMPLEMENTATION NOT YET WORKING. JOIN DISCORD OR FORK CODEBASE TO HELP.  
+    </form>
+    </p>
+    
+    
+  </body>
+  <script>
+   window.addEventListener('load', (event) => {
+   console.log('page is fully loaded');
+   worldID.init(
+  "world-id-container", // This can be the HTML ID of an element or any HTML node. Please be sure the node is mounted in your DOM before you call `.init()`
+  {
+    enable_telemetry: true,
+    action_id: "wid_staging_197f6da13cd03340ed72135948e34b33",
+    signal: "yes",
+  }
+  );  
+     
+   document.addEventListener("DOMContentLoaded", async function () {
+   try {
+    const result = await worldID.enable(); // <- Pass this `result` to your backend or smart contract (see below)
+    
+    console.log("World ID verified successfully!");
+    } catch (failure) {
+    console.warn("World ID verification failed:", failure);
+    // Re-activate here so your end user can try again
+  }
+});
+     
+     var x = document.getElementById("pledge");
+     x.addEventListener("click", function(){
+     console.log("Opt");
+  });
+});
+ </script>
+</html>
